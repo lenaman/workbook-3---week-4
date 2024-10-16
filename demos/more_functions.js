@@ -7,8 +7,8 @@ function displayMailingLabel(Name,Address,City,State,Zip){
 }
 
 function addNumbers(num1, num2){
-    let someNumber = num1+num2;
-    console.log("The sum is: " + someNumber)
+    let sum = num1+num2;
+    console.log("The sum is: " + sum)
 }
 
 function displayReceipt(totalDue, amountPaid){
