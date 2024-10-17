@@ -1,13 +1,9 @@
-let name = "Brenda Kaye"
+let name = "Lena Man"
 
 let spaceIndex = name.indexOf(" ")
-console.log(spaceIndex)
-
 let firstName = name.substring(0, spaceIndex)
-console.log("First name: " + firstName)
-
 let lastName = name.substring(spaceIndex + 1)
-
+console.log("The space is at : " + spaceIndex)
 console.log("Name: " + name)
 console.log("First name: " + firstName) 
 console.log("Last name: " + lastName)
